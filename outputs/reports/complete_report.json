@@ -1,0 +1,250 @@
+{
+  "title": "Transfer & Few-Shot Learning — Ebola Bundibugyo Outbreak 2026",
+  "date": "2026-07-28 11:33:23",
+  "version": "2.0-retravaill",
+  "source": "INRB-UMIE BDBV2026-Data",
+  "config": {
+    "n_shots": 14,
+    "test_ratio": 0.3,
+    "risk_pctile": 75,
+    "risk_thr": 9.0,
+    "seq_len": 7
+  },
+  "best_model": {
+    "name": "Ridge",
+    "RMSE": 62.8868,
+    "MAE": 20.06,
+    "R2": 0.5482,
+    "F1": 0.8472,
+    "AUC": 0.9953
+  },
+  "model_ranking": [
+    {
+      "Model": "Ridge",
+      "RMSE": 62.8868,
+      "MAE": 20.06,
+      "MAPE": 75.35,
+      "SMAPE": 47.65,
+      "RMSLE": 0.4686,
+      "R2": 0.5482,
+      "Corr": 0.9858,
+      "Theil_U": 2.1497,
+      "Accuracy": 0.8802,
+      "Precision": 0.735,
+      "Recall": 1.0,
+      "F1": 0.8472,
+      "AUC": 0.9953
+    },
+    {
+      "Model": "LinearRegression",
+      "RMSE": 62.9938,
+      "MAE": 19.7307,
+      "MAPE": 61.39,
+      "SMAPE": 41.43,
+      "RMSLE": 0.4167,
+      "R2": 0.5467,
+      "Corr": 0.9858,
+      "Theil_U": 2.1533,
+      "Accuracy": 0.8981,
+      "Precision": 0.7653,
+      "Recall": 1.0,
+      "F1": 0.867,
+      "AUC": 0.9956
+    },
+    {
+      "Model": "GNN-GraphSAGE",
+      "RMSE": 102.1485,
+      "MAE": 34.437,
+      "MAPE": 106.85,
+      "SMAPE": 91.83,
+      "RMSLE": 0.9762,
+      "R2": 0.4843,
+      "Corr": 0.9683,
+      "Theil_U": 0.5081,
+      "Accuracy": 0.8596,
+      "Precision": 0.9412,
+      "Recall": 0.6957,
+      "F1": 0.8,
+      "AUC": 0.8223
+    },
+    {
+      "Model": "XGBoost",
+      "RMSE": 79.4776,
+      "MAE": 21.7065,
+      "MAPE": 15.79,
+      "SMAPE": 19.58,
+      "RMSLE": 0.4336,
+      "R2": 0.2784,
+      "Corr": 0.7899,
+      "Theil_U": 2.7168,
+      "Accuracy": 0.9666,
+      "Precision": 0.9216,
+      "Recall": 0.9833,
+      "F1": 0.9514,
+      "AUC": 0.9984
+    },
+    {
+      "Model": "RandomForest",
+      "RMSE": 79.9764,
+      "MAE": 22.2172,
+      "MAPE": 18.68,
+      "SMAPE": 21.89,
+      "RMSLE": 0.445,
+      "R2": 0.2693,
+      "Corr": 0.7423,
+      "Theil_U": 2.7339,
+      "Accuracy": 0.9364,
+      "Precision": 0.8469,
+      "Recall": 0.987,
+      "F1": 0.9116,
+      "AUC": 0.9968
+    },
+    {
+      "Model": "LightGBM",
+      "RMSE": 88.5699,
+      "MAE": 28.1232,
+      "MAPE": 64.27,
+      "SMAPE": 55.58,
+      "RMSLE": 0.7317,
+      "R2": 0.1038,
+      "Corr": 0.6685,
+      "Theil_U": 3.0276,
+      "Accuracy": 0.8882,
+      "Precision": 0.7525,
+      "Recall": 0.9888,
+      "F1": 0.8546,
+      "AUC": 0.9949
+    },
+    {
+      "Model": "LSTM",
+      "RMSE": 94.8797,
+      "MAE": 32.7356,
+      "MAPE": 73.88,
+      "SMAPE": 111.46,
+      "RMSLE": 1.3256,
+      "R2": -0.0284,
+      "Corr": 0.5361,
+      "Theil_U": 3.2433,
+      "Accuracy": 0.8623,
+      "Precision": 0.973,
+      "Recall": 0.6022,
+      "F1": 0.744,
+      "AUC": 0.9628
+    },
+    {
+      "Model": "TL-LSTM",
+      "RMSE": 95.2843,
+      "MAE": 33.4122,
+      "MAPE": 92.12,
+      "SMAPE": 156.79,
+      "RMSLE": 1.4828,
+      "R2": -0.0332,
+      "Corr": 0.6292,
+      "Theil_U": 3.2502,
+      "Accuracy": 0.8548,
+      "Precision": 0.96,
+      "Recall": 0.5854,
+      "F1": 0.7273,
+      "AUC": 0.9498
+    },
+    {
+      "Model": "Transformer",
+      "RMSE": 100.2921,
+      "MAE": 36.5349,
+      "MAPE": 83.9,
+      "SMAPE": 150.76,
+      "RMSLE": 2.2557,
+      "R2": -0.1491,
+      "Corr": 0.063,
+      "Theil_U": 3.4283,
+      "Accuracy": 0.6788,
+      "Precision": 1.0,
+      "Recall": 0.0335,
+      "F1": 0.0647,
+      "AUC": 0.8366
+    }
+  ],
+  "statistical_tests": {
+    "ADF_stat": 1.1655,
+    "ADF_pval": 0.9957,
+    "LjungBox_sig_lags": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Shapiro_stat": 0.5662,
+    "Shapiro_pval": 0.0
+  },
+  "cv_results": [
+    {
+      "Model": "LinearRegression",
+      "RMSE_mean": 1.6947,
+      "RMSE_std": 1.5206,
+      "R2_mean": 0.9087,
+      "R2_std": 0.0832
+    },
+    {
+      "Model": "Ridge",
+      "RMSE_mean": 1.5722,
+      "RMSE_std": 1.3584,
+      "R2_mean": 0.9344,
+      "R2_std": 0.0473
+    },
+    {
+      "Model": "RandomForest",
+      "RMSE_mean": 2.0765,
+      "RMSE_std": 1.6814,
+      "R2_mean": 0.9102,
+      "R2_std": 0.0328
+    },
+    {
+      "Model": "XGBoost",
+      "RMSE_mean": 2.0631,
+      "RMSE_std": 1.6908,
+      "R2_mean": 0.9284,
+      "R2_std": 0.0237
+    },
+    {
+      "Model": "LightGBM",
+      "RMSE_mean": 8.7871,
+      "RMSE_std": 2.7051,
+      "R2_mean": -21.1343,
+      "R2_std": 31.007
+    }
+  ],
+  "forecast": {
+    "mean": 11.47731537777884,
+    "median": 11.379724085330963,
+    "lower": 9.465863680839538,
+    "upper": 14.785838389396606
+  },
+  "figures": [
+    "01_eda_national.png",
+    "02_top_zones.png",
+    "03_acf_pacf.png",
+    "04_historical_outbreaks.png",
+    "05_pretrain_loss.png",
+    "06_gnn_results.png",
+    "07_shap_comparison.png",
+    "08_lime_explanations.png",
+    "09_complete_dashboard.png",
+    "10_pred_vs_actual.png",
+    "11_residuals_XGBoost.png",
+    "12_probabilistic_forecast.png",
+    "13_carte_geo_ebola.png",
+    "14_drc_choropleth_map.png"
+  ],
+  "historical_outbreaks": [
+    "WestAfrica_2014",
+    "DRC_2018_Nord_Kivu",
+    "DRC_2021_Nord_Kivu",
+    "Uganda_2022"
+  ],
+  "gnn_available": true
+}

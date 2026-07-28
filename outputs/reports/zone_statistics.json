@@ -1,0 +1,59 @@
+{
+  "total_zones": 519,
+  "affected_zones": 44,
+  "unaffected_zones": 475,
+  "pct_affected": 8.48,
+  "last_update": "2026-07-25",
+  "top10_zones": [
+    {
+      "rank": 1,
+      "zone": "Bunia",
+      "cases": 762
+    },
+    {
+      "rank": 2,
+      "zone": "Rwampara",
+      "cases": 550
+    },
+    {
+      "rank": 3,
+      "zone": "Mongbwalu",
+      "cases": 498
+    },
+    {
+      "rank": 4,
+      "zone": "Nizi",
+      "cases": 350
+    },
+    {
+      "rank": 5,
+      "zone": "Katwa",
+      "cases": 138
+    },
+    {
+      "rank": 6,
+      "zone": "Lita",
+      "cases": 117
+    },
+    {
+      "rank": 7,
+      "zone": "Nyankunde",
+      "cases": 114
+    },
+    {
+      "rank": 8,
+      "zone": "Mangala",
+      "cases": 100
+    },
+    {
+      "rank": 9,
+      "zone": "Butembo",
+      "cases": 70
+    },
+    {
+      "rank": 10,
+      "zone": "Bambu",
+      "cases": 54
+    }
+  ]
+}
