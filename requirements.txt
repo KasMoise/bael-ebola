@@ -7,10 +7,6 @@ opencv-python-headless
 Pillow
 torch
 torchvision
-json
-pickle
-datetime
-timedelta
 Path
 contextmanager
 requests
