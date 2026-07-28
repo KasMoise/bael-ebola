@@ -7,8 +7,6 @@ opencv-python-headless
 Pillow
 torch
 torchvision
-Path
-contextmanager
 requests
 tarfile
 zipfile
@@ -24,5 +22,4 @@ LinearRegression
 Ridge
 DataLoader
 TensorDataset
-RandomForestRegressor
 GradientBoostingRegressor
