@@ -16,5 +16,3 @@ torchaudio
 torch-geometric
 networkx
 scipy
-torch-scatter
-torch-sparse
