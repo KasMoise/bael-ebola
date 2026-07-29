@@ -12,4 +12,7 @@ xgboost
 lightgbm
 shap
 lime
-
+torchaudio
+torch-geometric
+networkx
+scipy
