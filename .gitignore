@@ -1,6 +1,4 @@
 __pycache__/ 
-*.pkl 
-*.pt 
 .streamlit/ 
 .venv/ 
 venv/ 
