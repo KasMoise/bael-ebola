@@ -1,0 +1,153 @@
+{
+    "app": {
+        "title": "BAEL-Ebola · Tableau ya Bisika ya Kosala",
+        "subtitle": "Ebola Bundibugyo Maladi ya Viruse 2026 · RDC",
+        "version": "Versio",
+        "framework": "BAEL · Loop ya Elikisa ya Comportement",
+        "institution": "Université de l'Assomption au Congo (UAC)",
+        "location": "Butembo, Nord-Kivu, RDC"
+    },
+    "menu": {
+        "epidemiology": "Etinda ya Maladi",
+        "forecast": "Koyeba Liboso",
+        "models": "Kokanisa Ba Modèles",
+        "zones": "Tala Bitesi",
+        "explainability": "Elikisa",
+        "report": "Rapó",
+        "publications": "Buku",
+        "dashboard": "Tableau ya Biso",
+        "advanced": "Analyse ya Molongo"
+    },
+    "metrics": {
+        "total_cases": "Bato Banyi",
+        "new_cases_7d": "Bato Bapayi (7m)",
+        "health_zones": "Bitesi ya Santé",
+        "last_report": "Rapó ya Su",
+        "growth_rate": "Kokola",
+        "risk_level": "Likama",
+        "rmse": "RMSE",
+        "r2": "R²",
+        "models_loaded": "Ba Modèles Bakombami",
+        "active_model": "Modèle ya Sasa"
+    },
+    "alerts": {
+        "high": "ALERTE YA LIKAMA",
+        "elevated": "LIKAMA YA KITOKO",
+        "stable": "ETEKAMI",
+        "critical": "LIKAMA YA KOLO",
+        "warning": "Kebisa",
+        "info": "Bisaleli",
+        "immediate_action": "Kosala mbala moko",
+        "enhanced_surveillance": "Kebisa mingi",
+        "routine_monitoring": "Kebisa mbala na mbala"
+    },
+    "buttons": {
+        "save": "Bomba",
+        "load": "Benda",
+        "export": "Tinda",
+        "download": "Kitisa",
+        "refresh": "Sika",
+        "update": "Sala sika",
+        "cancel": "Kosila",
+        "confirm": "Kondima",
+        "close": "Kangisa",
+        "apply": "Sala",
+        "reset": "Bongisa",
+        "generate": "Salisa"
+    },
+    "common": {
+        "yes": "Ee",
+        "no": "Te",
+        "loading": "Ezalí kosala...",
+        "error": "Kosala te",
+        "success": "Kosali",
+        "not_found": "Boni te",
+        "no_data": "Biloko te",
+        "last_update": "Sika ya su",
+        "records": "ba records",
+        "zones": "bitesi"
+    },
+    "forecast": {
+        "title": "Koyeba Liboso",
+        "next_step": "Etelemeli ya su",
+        "ci_95": "Intervalle ya Confiance 95%",
+        "mean": "Moyenne",
+        "median": "Médiane",
+        "horizon": "Horizon",
+        "sir_projection": "Projection SIR",
+        "bootstrap": "Bootstrap"
+    },
+    "epidemiology": {
+        "title": "Tala Etinda ya Maladi",
+        "cumulative": "Bato Banyi",
+        "daily": "Bato Bapayi Mokolo",
+        "growth": "Kokola (%)",
+        "distribution": "Bato Bapayi",
+        "summary": "Statistiques",
+        "peak": "Mokolo ya mingi",
+        "mean": "Moyenne",
+        "median": "Médiane",
+        "days_active": "Mikolo"
+    },
+    "zones": {
+        "title": "Tala Bitesi",
+        "risk_table": "Likama ya Bitesi",
+        "high": "LIKAMA YA KOLO",
+        "moderate": "LIKAMA YA KITOKO",
+        "low": "LIKAMA TE",
+        "summary": "Résumé",
+        "total": "Bitesi",
+        "high_risk": "Likama ya kolo",
+        "threshold": "Seuil"
+    },
+    "explainability": {
+        "title": "Elikisa ya Modèle",
+        "feature_importance": "Importance ya Caractéristiques",
+        "residuals": "Analyse ya Résidus",
+        "shap": "Analyse SHAP",
+        "about": "Soki Elikisa"
+    },
+    "report": {
+        "title": "Rapó",
+        "generated": "Salama",
+        "institution": "Institution",
+        "framework": "Cadre",
+        "downloads": "Kitisa",
+        "json": "Rapó JSON",
+        "csv": "Prévisions CSV",
+        "raw_data": "Biloko CSV"
+    },
+    "publications": {
+        "title": "Buku",
+        "description": "Buku ya PhD",
+        "status": "Statut",
+        "under_review": "Ezalí kotala",
+        "in_preparation": "Ezalí kosala",
+        "submitted": "Etindami"
+    },
+    "sidebar": {
+        "data": "Biloko",
+        "parameters": "Paramètres",
+        "models": "Modèles",
+        "advanced": "Menu ya Kolo",
+        "real_data": "Biloko ya solosó (INRB)",
+        "demo_data": "Biloko ya ndakisa",
+        "upload_csv": "Kotisa CSV",
+        "primary_model": "Modèle ya liboso",
+        "few_shot": "Few-Shot K (semaines)",
+        "test_ratio": "Ratio ya test",
+        "forecast_horizon": "Horizon (mikolo)",
+        "sir_r0": "SIR R₀",
+        "bootstrap_n": "Bootstrap N",
+        "risk_percentile": "Percentile ya likama",
+        "lstm_seq": "LSTM longueur",
+        "models_ready": "modèles bakombami"
+    },
+    "language": {
+        "selector": "Lokótá",
+        "english": "English",
+        "french": "Français",
+        "lingala": "Lingala",
+        "swahili": "Kiswahili"
+    }
+}

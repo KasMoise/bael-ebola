@@ -1,0 +1,153 @@
+{
+    "app": {
+        "title": "BAEL-Ebola · Forecasting Dashboard",
+        "subtitle": "Ebola Bundibugyo Virus Disease 2026 · DRC",
+        "version": "Version",
+        "framework": "BAEL · Behavior-Aware Explainability Loop",
+        "institution": "Université de l'Assomption au Congo (UAC)",
+        "location": "Butembo, Nord-Kivu, DRC"
+    },
+    "menu": {
+        "epidemiology": "Epidemiology",
+        "forecast": "Forecast",
+        "models": "Model Comparison",
+        "zones": "Zone Analysis",
+        "explainability": "Explainability",
+        "report": "Report",
+        "publications": "Publications",
+        "dashboard": "Custom Dashboard",
+        "advanced": "Advanced Analysis"
+    },
+    "metrics": {
+        "total_cases": "Total Cases",
+        "new_cases_7d": "New Cases (7d)",
+        "health_zones": "Health Zones",
+        "last_report": "Last Report",
+        "growth_rate": "Growth Rate",
+        "risk_level": "Risk Level",
+        "rmse": "RMSE",
+        "r2": "R²",
+        "models_loaded": "Models Loaded",
+        "active_model": "Active Model"
+    },
+    "alerts": {
+        "high": "HIGH ALERT",
+        "elevated": "ELEVATED RISK",
+        "stable": "STABLE",
+        "critical": "CRITICAL",
+        "warning": "Warning",
+        "info": "Information",
+        "immediate_action": "Immediate response required",
+        "enhanced_surveillance": "Enhanced surveillance advised",
+        "routine_monitoring": "Routine monitoring"
+    },
+    "buttons": {
+        "save": "Save",
+        "load": "Load",
+        "export": "Export",
+        "download": "Download",
+        "refresh": "Refresh",
+        "update": "Update",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "close": "Close",
+        "apply": "Apply",
+        "reset": "Reset",
+        "generate": "Generate"
+    },
+    "common": {
+        "yes": "Yes",
+        "no": "No",
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "not_found": "Not found",
+        "no_data": "No data available",
+        "last_update": "Last update",
+        "records": "records",
+        "zones": "zones"
+    },
+    "forecast": {
+        "title": "Forecast",
+        "next_step": "Next-step forecast",
+        "ci_95": "95% Confidence Interval",
+        "mean": "Mean",
+        "median": "Median",
+        "horizon": "Horizon",
+        "sir_projection": "SIR Projection",
+        "bootstrap": "Bootstrap"
+    },
+    "epidemiology": {
+        "title": "National Epidemiological Overview",
+        "cumulative": "Cumulative Confirmed Cases",
+        "daily": "Daily New Cases",
+        "growth": "Daily Growth Rate (%)",
+        "distribution": "New Case Distribution",
+        "summary": "Summary Statistics",
+        "peak": "Peak daily",
+        "mean": "Mean daily",
+        "median": "Median daily",
+        "days_active": "Days active"
+    },
+    "zones": {
+        "title": "Health Zone Analysis",
+        "risk_table": "Zone Risk Table",
+        "high": "HIGH",
+        "moderate": "MODERATE",
+        "low": "LOW",
+        "summary": "Summary",
+        "total": "Total zones",
+        "high_risk": "High risk",
+        "threshold": "Threshold"
+    },
+    "explainability": {
+        "title": "Model Explainability",
+        "feature_importance": "Feature Importance",
+        "residuals": "Residual Analysis",
+        "shap": "SHAP Analysis",
+        "about": "About Explainability"
+    },
+    "report": {
+        "title": "Exportable Report",
+        "generated": "Generated",
+        "institution": "Institution",
+        "framework": "Framework",
+        "downloads": "Downloads",
+        "json": "JSON Report",
+        "csv": "Forecast CSV",
+        "raw_data": "Raw Data CSV"
+    },
+    "publications": {
+        "title": "Publications & References",
+        "description": "Scientific output produced within the PhD programme",
+        "status": "Status",
+        "under_review": "Under review",
+        "in_preparation": "In preparation",
+        "submitted": "Submitted"
+    },
+    "sidebar": {
+        "data": "Data",
+        "parameters": "Parameters",
+        "models": "Models",
+        "advanced": "Advanced Menu",
+        "real_data": "Real data (INRB)",
+        "demo_data": "Demo data",
+        "upload_csv": "Upload CSV",
+        "primary_model": "Primary model",
+        "few_shot": "Few-Shot K (weeks)",
+        "test_ratio": "Test ratio",
+        "forecast_horizon": "Forecast horizon (days)",
+        "sir_r0": "SIR R₀",
+        "bootstrap_n": "Bootstrap N",
+        "risk_percentile": "Risk percentile",
+        "lstm_seq": "LSTM seq length",
+        "models_ready": "models ready"
+    },
+    "language": {
+        "selector": "Language",
+        "english": "English",
+        "french": "Français",
+        "lingala": "Lingala",
+        "swahili": "Kiswahili"
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "app": {
+        "title": "BAEL-Ebola · Dashibodi ya Utabiri",
+        "subtitle": "Ebola Bundibugyo Virusi ya 2026 · DRC",
+        "version": "Toleo",
+        "framework": "BAEL · Mzunguko wa Uelezaji wa Tabia",
+        "institution": "Université de l'Assomption au Congo (UAC)",
+        "location": "Butembo, Nord-Kivu, DRC"
+    },
+    "menu": {
+        "epidemiology": "Epidemiolojia",
+        "forecast": "Utabiri",
+        "models": "Ulinganisho wa Mfano",
+        "zones": "Uchambuzi wa Maeneo",
+        "explainability": "Uelezaji",
+        "report": "Ripoti",
+        "publications": "Machapisho",
+        "dashboard": "Dashibodi Maalum",
+        "advanced": "Uchambuzi wa Juu"
+    },
+    "metrics": {
+        "total_cases": "Jumla ya Matukio",
+        "new_cases_7d": "Matukio Mapya (7s)",
+        "health_zones": "Maeneo ya Afya",
+        "last_report": "Ripoti ya Mwisho",
+        "growth_rate": "Kiwango cha Ukuaji",
+        "risk_level": "Kiwango cha Hatari",
+        "rmse": "RMSE",
+        "r2": "R²",
+        "models_loaded": "Mifano Iliyopakiwa",
+        "active_model": "Mfano Inayotumika"
+    },
+    "alerts": {
+        "high": "TETEMA KUBWA",
+        "elevated": "HATARI KUBWA",
+        "stable": "IMARA",
+        "critical": "MAHUTU",
+        "warning": "Onyo",
+        "info": "Taarifa",
+        "immediate_action": "Hatua ya haraka inahitajika",
+        "enhanced_surveillance": "Ufuatiliaji ulioimarishwa unashauriwa",
+        "routine_monitoring": "Ufuatiliaji wa kawaida"
+    },
+    "buttons": {
+        "save": "Hifadhi",
+        "load": "Pakia",
+        "export": "Toa",
+        "download": "Pakua",
+        "refresh": "Sasisha",
+        "update": "Badilisha",
+        "cancel": "Ghairi",
+        "confirm": "Thibitisha",
+        "close": "Funga",
+        "apply": "Weka",
+        "reset": "Rudisha",
+        "generate": "Zalisha"
+    },
+    "common": {
+        "yes": "Ndio",
+        "no": "Hapana",
+        "loading": "Inapakua...",
+        "error": "Hitilafu",
+        "success": "Imefanikiwa",
+        "not_found": "Haipatikani",
+        "no_data": "Hakuna data",
+        "last_update": "Sasisho la mwisho",
+        "records": "rekodi",
+        "zones": "maeneo"
+    },
+    "forecast": {
+        "title": "Utabiri",
+        "next_step": "Utabiri ujao",
+        "ci_95": "Muda wa Kuaminika 95%",
+        "mean": "Wastani",
+        "median": "Kati",
+        "horizon": "Mwangaza",
+        "sir_projection": "Makadirio ya SIR",
+        "bootstrap": "Bootstrap"
+    },
+    "epidemiology": {
+        "title": "Muhtasari wa Epidemiolojia",
+        "cumulative": "Matukio ya Jumla",
+        "daily": "Matukio Mapya",
+        "growth": "Kiwango cha Ukuaji (%)",
+        "distribution": "Usambazaji wa Matukio",
+        "summary": "Takwimu za Muhtasari",
+        "peak": "Kilele cha siku",
+        "mean": "Wastani",
+        "median": "Kati",
+        "days_active": "Siku zilizoamilishwa"
+    },
+    "zones": {
+        "title": "Uchambuzi wa Maeneo",
+        "risk_table": "Jedwali la Hatari",
+        "high": "KUBWA",
+        "moderate": "WASATI",
+        "low": "NDOGO",
+        "summary": "Muhtasari",
+        "total": "Maeneo yote",
+        "high_risk": "Hatari kubwa",
+        "threshold": "Kizingiti"
+    },
+    "explainability": {
+        "title": "Uelezaji wa Mfano",
+        "feature_importance": "Umuhimu wa Vipengele",
+        "residuals": "Uchambuzi wa Mabaki",
+        "shap": "Uchambuzi wa SHAP",
+        "about": "Kuhusu Uelezaji"
+    },
+    "report": {
+        "title": "Ripoti",
+        "generated": "Imezalishwa",
+        "institution": "Taasisi",
+        "framework": "Mfumo",
+        "downloads": "Upakuaji",
+        "json": "Ripoti ya JSON",
+        "csv": "Utabiri wa CSV",
+        "raw_data": "Data Mbichi ya CSV"
+    },
+    "publications": {
+        "title": "Machapisho",
+        "description": "Matokeo ya kisayansi katika mpango wa PhD",
+        "status": "Hali",
+        "under_review": "Inakaguliwa",
+        "in_preparation": "Inaandaliwa",
+        "submitted": "Imewasilishwa"
+    },
+    "sidebar": {
+        "data": "Data",
+        "parameters": "Vigezo",
+        "models": "Mifano",
+        "advanced": "Menyu ya Juu",
+        "real_data": "Data halisi (INRB)",
+        "demo_data": "Data ya mfano",
+        "upload_csv": "Pakia CSV",
+        "primary_model": "Mfano mkuu",
+        "few_shot": "Few-Shot K (wiki)",
+        "test_ratio": "Uwiano wa mtihani",
+        "forecast_horizon": "Utabiri (siku)",
+        "sir_r0": "SIR R₀",
+        "bootstrap_n": "Bootstrap N",
+        "risk_percentile": "Asilimia ya hatari",
+        "lstm_seq": "Urefu wa mfuatano wa LSTM",
+        "models_ready": "mifano tayari"
+    },
+    "language": {
+        "selector": "Lugha",
+        "english": "English",
+        "french": "Français",
+        "lingala": "Lingala",
+        "swahili": "Kiswahili"
+    }
+}
