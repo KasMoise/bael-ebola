@@ -1,0 +1,7 @@
+{
+  "saved_at": "2026-08-05 13:38",
+  "total_cases": 3802,
+  "n_zones": 61,
+  "active_model": "XGBoost",
+  "checksum": "f2a32a2b"
+}
