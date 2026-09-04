@@ -20,4 +20,4 @@ folium
 geopandas
 reportlab
 streamlit-folium
-pyarrow
+pyarrow==24.0.0
