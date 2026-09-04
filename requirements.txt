@@ -19,3 +19,5 @@ scipy
 folium
 geopandas
 reportlab
+streamlit-folium
+pyarrow
