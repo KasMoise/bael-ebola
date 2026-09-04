@@ -18,3 +18,4 @@ networkx
 scipy
 folium
 geopandas
+reportlab
