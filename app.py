@@ -96,7 +96,7 @@ EPIDEMIC_CONFIGS = {
         "default_rec_sim":  0.34,
         "risk_threshold":   100,
         "sir_r0_default":   1.8,
-        "github_url":       "",   # historical — use demo/upload
+        "github_url":       "https://github.com/andersen-lab/ebola-drc-epidemiology/blob/master/dataonly_ebolaDRC.csv",   # historical — use demo/upload
         "data_dir":         "donnees_nk2018",
         "extract_dir":      "donnees_nk2018_extracted",
         "geojson":          "donnees_extraites/build/drc_health_zones.geojson",
@@ -134,7 +134,7 @@ EPIDEMIC_CONFIGS = {
         "default_rec_sim":  0.92,
         "risk_threshold":   200,
         "sir_r0_default":   2.2,
-        "github_url":       "",
+        "github_url":       "https://github.com/andersen-lab/Mpox_West_Africa/blob/main/Data/MPXV_metadata.csv",
         "data_dir":         "donnees_mpox",
         "extract_dir":      "donnees_mpox_extracted",
         "geojson":          "donnees_extraites/build/drc_health_zones.geojson",
