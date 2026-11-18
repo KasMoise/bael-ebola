@@ -386,9 +386,10 @@ _APP_VERSION = "1.0.0"
 
 ---
 
-## 📄 License
+## 📄 License and Warranty
 
-MIT License — see [LICENSE](LICENSE) for details.
+License: The repository code is licensed under the terms in LICENSE. We do not claim ownership of or the right to license the third-party data or software tools used. Please pass forward any existing license/warranty/copyright information when redistributing.
+THE DATA AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
 
 ---
 
